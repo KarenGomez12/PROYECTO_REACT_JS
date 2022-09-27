@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+  --azulclaro: #48D6ED;
+  --azuloscuro: #337AB7;
+  --azulnegro: #303342;
+  --negro: #333333;
+  --negro2: #000;
+  --gris: #B2B3B3;
+  --fondo: #FFFEFC;
+  --verdeazul: #157A8A;
+  --Magenta: #9C2759;
+  --blanco: #fff;
+  --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+}
+
+*{
+    margin:0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Marcellus', serif;
+}
+
+/*Resolución notebooks y deskop*/
+@media screen and (min-width: 800px){
+    #ubi{
+        flex-flow: space-around;
+        width: 100%;
+    }
+    
+    #ubi h1{
+        margin-top: 1em;
+        height: 5rem;
+        font-size: 3em;
+    }
+    
+    #ubi iframe{
+        padding: 3rem;
+        width: 95%;
+    }
+    
+    #ubi h3{
+        font-size: 1.7em;
+        height: 3em;
+    }
+    
+    .ubicacion{
+        color: var(--negro2); 
+        text-align: center;
+    }
+}
+
+/*Resolución tablet*/
+@media screen and (max-width: 799.8px){
+    #ubi{
+        flex-flow: space-around;
+        width: 100%;
+    }
+    
+    #ubi h1{
+        margin-top: 0.6em;
+        height: 2rem;
+        font-size: 2em;
+    }
+    
+    #ubi iframe{
+        padding: 2rem;
+        width: 87%;
+    }
+    
+    #ubi h3{
+        font-size: 1em;
+        height: 3em;
+    }
+    
+    .ubicacion{
+        color: var(--negro2); 
+        text-align: center;
+    }
+    
+    #usuarios{
+        background-color: var(--negro2);
+        font-family: 'Marcellus', serif;
+        height: 5rem;
+    }    
+}
+
+/*Resolución mobile*/
+@media screen and (max-width: 460px){
+    #ubi{
+        flex-flow: space-around;
+        width: 100%;
+    }
+    
+    #ubi h1{
+        margin-top: 1em;
+        height: 2rem;
+        font-size: 2em;
+    }
+    
+    #ubi iframe{
+        padding: 1.5rem;
+        width: 90%;
+        height: 20em;
+    }
+    
+    #ubi h3{
+        font-size: 1em;
+        height: 3em;
+    }
+    
+    .lineaubi{
+        width: 83%;
+        margin-left: 2em;
+    }
+      
+    .ubicacion{
+        color: var(--negro2); 
+        text-align: center;
+    }  
+}

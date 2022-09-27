@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+  --azulclaro: #48D6ED;
+  --azuloscuro: #337AB7;
+  --azulnegro: #303342;
+  --negro: #333333;
+  --negro2: #000;
+  --gris: #B2B3B3;
+  --fondo: #FFFEFC;
+  --verdeazul: #157A8A;
+  --Magenta: #9C2759;
+  --blanco: #fff;
+  --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+}
+
+*{
+    margin:0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Marcellus', serif;
+}
+/*--------------------------------------------- INDEX RESPONSIVE FLEXBOX --------------------------------------*/
+/*Resolución notebooks y deskop*/
+@media screen and (min-width: 800px){
+    #text1{
+        background-color: var(--blanco);
+        height: 25rem;
+        display: flex;
+        flex-direction: row-reverse;
+        padding:1rem 2rem;
+    }
+    
+    #text1 p{
+        margin-top: 5em;
+        padding-left:6em;
+        padding-right: 5em;
+    }
+    
+    #text1 img{
+        width: 15em;
+        padding-right: 10rem;
+    }
+    
+    #text img{
+        background-repeat: no-repeat;
+        margin-left: 20rem;
+        width: 15rem;
+        height: 10rem;
+        margin-right: 20rem;
+    }
+}
+
+/*Resolución tablet*/
+@media screen and (max-width: 799.8px){
+    #text1{
+        background-color: var(--blanco);
+        height: 35rem;
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 0.2rem 0.2rem;
+    }
+    
+    #text1 p{
+        margin-top: 2em;
+        padding-left: 1.em;
+        padding-right: 1em;
+        display: flex;
+    }
+    
+    #text1 img{
+        width: 10em;
+        padding-right: 1.5rem;
+    }    
+}
+
+/*Resolución mobile*/
+@media screen and (max-width: 460px){
+    #text1{
+        background-color: var(--blanco);
+        height: 21rem;
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 1rem 1rem;
+    }
+    
+    #text1 p{
+        margin-top: 0.5em;
+    }
+    
+    #text1 img{
+        display: none;
+    }
+    
+    #text img{
+        background-repeat: no-repeat;
+        margin-left: 20rem;
+        width: 15rem;
+        height: 10rem;
+        margin-right: 20rem;
+    }
+}
