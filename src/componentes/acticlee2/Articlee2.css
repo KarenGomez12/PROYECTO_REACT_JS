@@ -29,99 +29,50 @@ h1,h2,h3,h4,h5{
 /*--------------------------------------------- INDEX RESPONSIVE FLEXBOX --------------------------------------*/
 /*Resolución notebooks y deskop*/
 @media screen and (min-width: 800px){
-    #ubi{
-        flex-flow: space-around;
-        width: 100%;
+    #usuarios{
+        background-color: var(--negro2);
+        font-family: 'Marcellus', serif;
+        height: 7rem;
     }
     
-    #ubi h1{
-        margin-top: 1em;
-        height: 5rem;
+      #usuarios p{
+        padding: 0.5em;
+        color: white;
         font-size: 3em;
-    }
-    
-    #ubi iframe{
-        padding: 3rem;
-        width: 95%;
-    }
-    
-    #ubi h3{
-        font-size: 1.7em;
-        height: 3em;
-    }
-    
-    .ubicacion{
-        color: var(--negro2); 
         text-align: center;
-    }
+    } 
 }
 
 /*Resolución tablet*/
 @media screen and (max-width: 799.8px){
-    #ubi{
-        flex-flow: space-around;
-        width: 100%;
-    }
-    
-    #ubi h1{
-        margin-top: 0.6em;
-        height: 2rem;
-        font-size: 2em;
-    }
-    
-    #ubi iframe{
-        padding: 2rem;
-        width: 87%;
-    }
-    
-    #ubi h3{
-        font-size: 1em;
-        height: 3em;
-    }
-    
-    .ubicacion{
-        color: var(--negro2); 
-        text-align: center;
-    }
-    
+   
     #usuarios{
         background-color: var(--negro2);
         font-family: 'Marcellus', serif;
         height: 5rem;
+    }
+    
+    #usuarios p{
+        padding: 0.5em;
+        color: white;
+        font-size: 2em;
+        text-align: center;
     }    
 }
 
 /*Resolución mobile*/
 @media screen and (max-width: 460px){
-    #ubi{
-        flex-flow: space-around;
-        width: 100%;
+     
+    #usuarios{
+        background-color: var(--negro2);
+        font-family: 'Marcellus', serif;
+        height: 7rem;
     }
     
-    #ubi h1{
-        margin-top: 1em;
-        height: 2rem;
+    #usuarios p{
+        padding: 0.5em;
+        color: white;
         font-size: 2em;
-    }
-    
-    #ubi iframe{
-        padding: 1.5rem;
-        width: 90%;
-        height: 20em;
-    }
-    
-    #ubi h3{
-        font-size: 1em;
-        height: 3em;
-    }
-    
-    .lineaubi{
-        width: 83%;
-        margin-left: 2em;
-    }
-      
-    .ubicacion{
-        color: var(--negro2); 
         text-align: center;
     }  
 }

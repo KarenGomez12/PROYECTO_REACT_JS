@@ -2,16 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Index from './pages/Inicio/Inicio';
-import Iniciarsesion from './pages/Iniciarsesion';
+
+import Inicio from './pages/inicio/Inicio';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Index />
-    <Iniciarsesion />
+    <Inicio />
   </React.StrictMode>
 );
 
