@@ -1,4 +1,4 @@
-import './NuevoRegistro.css';
+import './Nuevoregistro.css';
 import HHB from './Hotelia horizontal blanco.svg';
 
 function NuevoRegistro() {

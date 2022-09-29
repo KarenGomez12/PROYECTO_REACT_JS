@@ -1,16 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+
+//impotaciones pata paginas de rutas son para cargar las vistas 
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
 
 import Inicio from './pages/inicio/Inicio';
-
-
+import Iniciarsesion from './pages/iniciarsesion/Iniciarsesion';
+import Nuevoregistro from './pages/nuevoregistro/Nuevoregistro';
+import Dashboard from './pages/dashboard/Dashboard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Inicio />
+    <BrowserRouter>
+              <Routes>
+                  <Route path='/' element={<Inicio />}/>
+                  <Route path='/Iniciarsesion' element={<Iniciarsesion/>}/>
+                  <Route path='/Nuevoregistro' element={<Nuevoregistro/>}/>
+                  <Route path='/Dashboard' element={<Dashboard/>}/>
+              </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

@@ -1,5 +1,11 @@
+//Link para la navegabilidad de direccioneamineto 
+import { Link } from 'react-router-dom';
+
+
 import logo from './Hotelia horizontal blanco.svg';
 import './Nav.css';
+
+
 
 function Nav() {
   return (
@@ -13,7 +19,7 @@ function Nav() {
             <a href="ubicanos.html" class="item">Ubícanos</a>
             <a href="opiniones.html" class="item">Opiniones</a>
             <hr class="menu-hr" noshade=""/>
-            <a href="iniciarsesion.html" class="item"><button class="navbar-button"></button><i class="fa-solid fa-user"></i> Iniciar Sesión</a>
+            <Link to="Iniciarsesion"><a href="iniciarsesion.html" class="item"><button class="navbar-button"></button><i class="fa-solid fa-user"></i> Iniciar Sesión</a></Link>
         </div>
     </nav> 
   );
