@@ -5,6 +5,7 @@ import Section2 from'../../componentes/section2/Section2';
 import Articleein from '../../componentes/articleein/Articleein';
 import Articlee2 from '../../componentes/acticlee2/Articlee2';
 import Div2 from '../../componentes/div2/Div2';
+import Footer from '../../componentes/footer/Footer';
 
 function Inicio() {
     return (
@@ -16,6 +17,7 @@ function Inicio() {
             <Articleein/>
             <Articlee2/>
             <Div2/>
+            <Footer/>
         </div>
     );
 }

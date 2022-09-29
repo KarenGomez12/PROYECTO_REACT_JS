@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+  --azulclaro: #48D6ED;
+  --azuloscuro: #337AB7;
+  --azulnegro: #303342;
+  --negro: #333333;
+  --negro2: #000;
+  --gris: #B2B3B3;
+  --fondo: #FFFEFC;
+  --verdeazul: #157A8A;
+  --Magenta: #9C2759;
+  --blanco: #fff;
+  --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+}
+
+*{
+    margin:0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Marcellus', serif;
+}
+/*--------------------------------------------- INDEX RESPONSIVE FLEXBOX --------------------------------------*/
+/*Resolución notebooks y deskop*/
+@media screen and (min-width: 800px){
+    #Mas-info{
+      background-color: var(--negro2);
+      font-family: 'Marcellus', serif;
+      height: 10rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 100%;
+    }
+  
+    #Mas-info p{
+      color: white;
+    }
+  
+    .lorem-redes{
+      padding: 1.2em;
+      text-align: left;
+      width: 13em;
+    }
+  
+    .direccion-telefono{
+      text-align: left;
+      padding: 1.25em;
+      width: 16em;
+      margin-left: 3rem;
+    }
+  
+    .pp{
+      padding: 1em;
+      text-align: left;
+      margin-right: 3rem;
+      width: 13em;
+    }
+  
+    .lineasecundaria{
+      display: none;
+    }
+}
+/*Resolución tablet*/
+@media screen and (max-width: 799.8px){  
+    #Mas-info{
+      background-color: var(--negro2);
+      font-family: 'Marcellus', serif;
+      height: 18rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 100%;
+      text-align: center;
+      font-size: 0.9em;
+    }
+  
+    #Mas-info p{
+      color: white;
+    }
+  
+    .lorem-redes{
+      text-align: left;
+      padding-top: 1em;
+    }
+  
+    .direccion-telefono{
+      text-align: left;
+    }
+  
+    .pp{
+      text-align: left;
+      margin-right: 12rem;
+      margin-bottom: 6em;
+    }
+}
+/*Resolución mobile*/
+@media screen and (max-width: 460px){
+    #Mas-info p{
+      color: white;
+    }
+  
+    .lorem-redes{
+      text-align: left;
+      padding-top: 1em;
+    }
+  
+    .direccion-telefono{
+      text-align: left;
+    }
+  
+    .pp{
+      text-align: left;
+      margin-right: 10rem;
+      margin-bottom: 5em;
+    }
+}

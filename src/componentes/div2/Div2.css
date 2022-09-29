@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+  --azulclaro: #48D6ED;
+  --azuloscuro: #337AB7;
+  --azulnegro: #303342;
+  --negro: #333333;
+  --negro2: #000;
+  --gris: #B2B3B3;
+  --fondo: #FFFEFC;
+  --verdeazul: #157A8A;
+  --Magenta: #9C2759;
+  --blanco: #fff;
+  --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+}
+
+*{
+    margin:0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Marcellus', serif;
+}
+/*--------------------------------------------- INDEX RESPONSIVE FLEXBOX --------------------------------------*/
+/*Resolución notebooks y deskop*/
+@media screen and (min-width: 800px){
+    #per {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      height: 8rem;
+      margin-bottom: 7rem;
+      background: linear-gradient(rgb(0, 0, 0) 40%, white 0%);
+    }
+  
+    #per .personas{
+      padding: 1em;
+      color: white;
+      font-size: 0.8em;
+      width: 15rem;
+      height: 8rem;
+      text-align: center;
+    }
+  
+    .personas{
+      background: url(../div2/curvaindex.jpg);
+      background-position: 10% 50%;
+    }
+  
+    #per img{
+      width: 2em;
+      border-radius: 5em;
+    }
+  
+    #per p{
+      font-size: 0.7rem;
+    }
+}
+  
+  
+/*Resolución tablet*/
+@media screen and (max-width: 799.8px){
+    
+    #per {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      height: 18rem;
+      margin-bottom: 18rem;
+      
+    }
+  
+    #per .personas{
+      margin-top: 1em;
+      padding: 3.6em;
+      color: white;
+      font-size: 0.8em;
+      width: 12rem;
+      height: 5rem;
+      text-align: center;
+    }
+  
+    .personas{
+      background: url(../div2/curvaindex.jpg);
+      background-size: cover;
+      background-position: 10% 10%;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    #per img{
+      width: 2em;
+      border-radius: 5em;
+    }
+  
+    #per i{
+      display: none;
+    }
+  
+    #per p{
+      font-size: 0.7rem;
+    }
+}
+  
+  
+/*Resolución mobile*/
+@media screen and (max-width: 460px){
+    #per {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      height: 18rem;
+      margin-bottom: 18rem;
+    }
+  
+    #per .personas{
+      margin-top: 1em;
+      padding: 3.6em;
+      color: white;
+      font-size: 0.8em;
+      width: 12rem;
+      height: 5rem;
+      text-align: center;
+    }
+  
+    .personas{
+      background: url(../div2/curvaindex.jpg);
+      background-position: 10% 50%; 
+    }
+  
+    #per img{
+      width: 2em;
+      border-radius: 5em;
+    }
+  
+    #per i{
+      display: none;
+    }
+  
+    #per p{
+      font-size: 0.7rem;
+    } 
+}
+  
