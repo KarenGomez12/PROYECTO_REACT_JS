@@ -8,7 +8,7 @@ function Iniciarsesion() {
     return (
         <body id="Habitacion">
             <nav class="home">
-            <a href="index.html" class="home"><i class="fa-solid fa-house-chimney"></i></a>   
+            <Link to="/"><a href="index.html" class="home"><i class="fa-solid fa-house-chimney"></i></a></Link>   
             </nav>
             
             <section id="Login">

@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5{
 }
 /*-----------------------------------------------------------DASHBOARD-----------------------------------------------------------*/
 /*Resolución notebooks y deskop*/
-@media screen and (min-width: 500px){
+@media screen and (min-width: 800px){
     #dash1{
       display: flex;
       flex-direction: row;
@@ -117,13 +117,13 @@ h1,h2,h3,h4,h5{
       background-color: rgba(213, 212, 214, 0.838);
       border-radius: 1em;
       height: 41em;
-      margin: 2em;
+      margin: 4.5em;
     }
   
     #An h2{
       text-align: left;
       padding-top: 1em;
-      padding-left: 10em;
+      padding-left: 20em;
     }
     
     #Ann{
@@ -148,7 +148,7 @@ h1,h2,h3,h4,h5{
   
     .an2{
       padding-top: 1em;
-      padding-left: 2em;
+      padding-left: 5em;
     }
   
     .an2 p{
@@ -178,13 +178,13 @@ h1,h2,h3,h4,h5{
     
     .an3{
       padding-top: 1.2em;
-      padding-left: 1em;
+      padding-left: 8em;
     }
   
   
     .an4{
       padding-top: 1.2em;
-      padding-left: 1em;
+      padding-left: 7em;
     }
   
     .actualizar{
@@ -217,9 +217,166 @@ h1,h2,h3,h4,h5{
       width: 17em;
     }
 }
+
+/*Resolución tablet*/
+@media screen and (max-width: 799.8px){
+  #dash1{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #dash{
+    display: none;
+  }
+
+  .menulateral1{
+    background-color: var(--azulnegro);
+    height: 47em;
+    width: 4em;
+  }
+
+  .menuencabezado1{
+    background: url(../dashboard/curvadashboard.jpg);
+    background-size: cover;
+  }
+
+  .menuencabezado1 img{
+    width: 30px;
+    padding-left: 0.5em;
+    padding-top: 1em;
+  }
+  .iconosmenu1 i{
+    color: white;
+    text-align: center;
+    padding-left: 1em;
+    padding-top: 1.5em;
+    font-size: 1em;
+  }
+  .salida1 i{
+    color: white;
+    text-align: center;
+    padding-left: 1em;
+    padding-top: 20em;
+    font-size: 1em;
+  }
+
+  #cuerporegistro{
+    background: url(../dashboard/fdashboard.jpeg);
+    background-repeat: no-repeat;
+    background-position: 80% 20%;
+    background-size: cover;
+    width: 100%;
+    height: 47em;
+    
+  }
+
+  #An{
+    background-size: cover;
+    background-color: rgba(213, 212, 214, 0.838);
+    border-radius: 1em;
+    height: 45.4em;
+    width: 20em;
+    margin-top: 1em;
+    margin-left: 10em;
+  }
+
+  #An h2{
+    text-align: center;
+    padding-top: 1em;
+    font-size: 1.1em;
+  }
   
+  #Ann{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #Ann p{
+    margin-top: 0.2em;
+  }
+
+  .Controles2{
+    width: 14em;
+    height: 1em;
+  }
+
+  .an2 img{
+    padding-left: 2em;
+    width: 6em;
+  }
+
+  .an2{
+    padding-left: 5em;
+  }
+
+  .an2 p{
+    margin-left: 2em;
+    background-color: var(--azuloscuro);
+    color: white;
+    width: 6em;
+    height: 1.5em;
+  }
+  
+  .ann2{
+    display: none;
+  }
+
+  .an2 i{
+    padding-left: 2em;
+    margin-top: 0.1em;
+    font-size: 1.2em;
+  }
+
+  .cambiocontraseña{
+    display: none;
+  }
+
+  #contraseña{
+    width: 14em;
+    height: 1em;
+  }
+  
+  .an3{
+    padding-left: 4em;
+  }
+
+  .an4{
+    padding-left: 4em;
+  }
+
+  .actualizar{
+    font-family: 'Marcellus', serif;
+    font-size: 0.8em;
+    margin-top: 0.5em;
+    width: 6em;
+    height: 1.5em;
+    color: white;
+    background-color: var(--negro2);
+  }
+
+  .Cambiar{
+    font-family: 'Marcellus', serif;
+    font-size: 0.8em;
+    margin-top: 0.5em;
+    width: 6em;
+    height: 1.5em;
+    color: white;
+    background-color: var(--negro2);
+  }
+
+  .confirmicontra{
+    margin-top: 0.2em;
+  }
+
+  .confirmicontra input{
+    margin-top: 0.7Sem;
+    width: 14em;
+    height: 1em;
+  }
+}
+
 /*Resolución mobile*/
-@media screen and (max-width: 499.9px){
+@media screen and (max-width: 460px){
     #dash1{
       display: flex;
       flex-direction: row;
@@ -267,6 +424,7 @@ h1,h2,h3,h4,h5{
       background-size: cover;
       width: 100%;
       height: 47em;
+      
     }
   
     #An{
@@ -274,8 +432,9 @@ h1,h2,h3,h4,h5{
       background-color: rgba(213, 212, 214, 0.838);
       border-radius: 1em;
       height: 45em;
-      width: 14em;
-      margin: 0.8em;
+      width: 17em;
+      margin-top: 1em;
+      margin-left: 1.5em;
     }
   
     #An h2{
@@ -299,16 +458,18 @@ h1,h2,h3,h4,h5{
     }
   
     .an2 img{
-      padding-left: 2em;
-      width: 6em;
+      padding-left: 4em;
+      height: 4em;
+      width: 4em;
     }
   
     .an2{
       padding-left: 2em;
+      margin-top: 1.5em;
     }
   
     .an2 p{
-      margin-left: 2em;
+      margin-left: 3em;
       background-color: var(--azuloscuro);
       color: white;
       width: 6em;
@@ -335,11 +496,11 @@ h1,h2,h3,h4,h5{
     }
     
     .an3{
-      padding-left: 1em;
+      padding-left: 2em;
     }
   
     .an4{
-      padding-left: 1em;
+      padding-left: 2em;
     }
   
     .actualizar{

@@ -10,6 +10,7 @@ import Inicio from './pages/inicio/Inicio';
 import Iniciarsesion from './pages/iniciarsesion/Iniciarsesion';
 import Nuevoregistro from './pages/nuevoregistro/Nuevoregistro';
 import Dashboard from './pages/dashboard/Dashboard';
+import Listadohabitacion from './pages/listadohabitacion/Listadohabitacion';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
                   <Route path='/Iniciarsesion' element={<Iniciarsesion/>}/>
                   <Route path='/Nuevoregistro' element={<Nuevoregistro/>}/>
                   <Route path='/Dashboard' element={<Dashboard/>}/>
+                  <Route path='/Listadohabitacion' element={<Listadohabitacion/>}/>
               </Routes>
     </BrowserRouter>
   </React.StrictMode>

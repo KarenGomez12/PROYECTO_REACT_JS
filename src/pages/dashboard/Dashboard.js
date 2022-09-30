@@ -4,26 +4,29 @@ import hc from './hotelia campana.svg';
 import mA from './muñecaAnguie.png';
 import anguie from './anguie.png';
 
+//Link para la navegabilidad de direccioneamineto 
+import { Link } from 'react-router-dom';
+
 function Dashboard() {
     return (
         <body id="dash1">
             <nav id="dash">
                 <div id="dash2">
                     <div class="AnguieV">
-                        <img src={HHB2}/>
+                        <img class="img2" src={HHB2}/>
                         <h3>Anguie Vargas</h3>
                         <p>anguievargas2@gmail.com</p>
                     </div>   
                 </div>
                 <div class="menu2">
-                    <a href="#" class="items"><i class="fa-solid fa-bed"></i>Habitaciones</a>
+                    <Link to="Listadohabitacion"><a href="#" class="items"><i class="fa-solid fa-bed"></i>Habitaciones</a></Link>
                     <a href="#" class="itemss"><i class="fa-solid fa-bell-concierge"></i>Reservas</a>
                     <a href="#" class="items"><i class="fa-solid fa-bed"></i>Habitaciones</a>
                     <a href="#" class="itemss"><i class="fa-solid fa-bell-concierge"></i>Habitaciones</a>
                 </div>
 
                 <div class="cerrar">
-                    <a href="index.html"><i class="fa-solid fa-arrow-right-from-bracket"></i>  Cerrar Sesión</a>
+                    <Link to="/"><a href="index.html"><i class="fa-solid fa-arrow-right-from-bracket"></i>  Cerrar Sesión</a></Link>
                 </div>
             </nav>
             <aside id="dash01">
