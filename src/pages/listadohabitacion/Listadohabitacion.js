@@ -31,7 +31,7 @@ function Listadohabitacion() {
                         <a href="" class="iitems"><i class="fa-solid fa-pen"></i> Editar Perfil</a>
                     </div>
                     <div class="salida">
-                            <Link to="/"><a href="index.html" ><i class="fa-solid fa-arrow-right-from-bracket"></i>Cerrar Sesión</a></Link>
+                            <Link to="/"><a href="index.html"><i class="fa-solid fa-arrow-right-from-bracket"></i>Cerrar Sesión</a></Link>
                     </div>
                 </aside>
                 

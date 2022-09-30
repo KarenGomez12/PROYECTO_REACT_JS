@@ -63,7 +63,7 @@ function NuevoRegistro() {
                         <input type="checkbox" name="tc"/>Acepto terminos y Condiciones
                         <br/><br/>
                     </div>
-                    <Link to="Dashboard"><button class="ingre" type="submit" name="boton"><a href="#"></a>Ingresar</button></Link>
+                    <Link to="/Dashboard"><button class="ingre" type="submit" name="boton"><a href="#"></a>Ingresar</button></Link>
                 </section>
             </div>
         </body>

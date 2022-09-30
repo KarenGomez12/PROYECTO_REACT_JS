@@ -19,7 +19,7 @@ function Dashboard() {
                     </div>   
                 </div>
                 <div class="menu2">
-                    <Link to="Listadohabitacion"><a href="#" class="items"><i class="fa-solid fa-bed"></i>Habitaciones</a></Link>
+                    <Link to="/Listadohabitacion"><a href="#" class="items"><i class="fa-solid fa-bed"></i>Habitaciones</a></Link>
                     <a href="#" class="itemss"><i class="fa-solid fa-bell-concierge"></i>Reservas</a>
                     <a href="#" class="items"><i class="fa-solid fa-bed"></i>Habitaciones</a>
                     <a href="#" class="itemss"><i class="fa-solid fa-bell-concierge"></i>Habitaciones</a>

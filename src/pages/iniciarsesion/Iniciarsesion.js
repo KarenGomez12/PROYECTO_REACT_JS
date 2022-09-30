@@ -26,8 +26,8 @@ function Iniciarsesion() {
                     <input class="Controles" id="contraseñaa" type="text" name="contraseña" required="obligatorio"/>
                     <br/><br/><br/>
 
-                    <Link to="Dashboard"><button class="BotonLogin" id="Ingresar" type="submit" name="boton"><a href="Dashboard.html">Ingresar</a></button></Link>
-                    <Link to="Nuevoregistro"><p class="cuenta">¿No tienes cuenta?<a href="NuevoRegistro.html">Registrate aquí</a></p></Link>
+                    <Link to="/Dashboard"><button class="BotonLogin" id="Ingresar" type="submit" name="boton"><a href="Dashboard.html">Ingresar</a></button></Link>
+                    <Link to="/Nuevoregistro"><p class="cuenta">¿No tienes cuenta?<a href="NuevoRegistro.html">Registrate aquí</a></p></Link>
                 </form>
             </section>
         </body>
