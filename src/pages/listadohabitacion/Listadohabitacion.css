@@ -155,6 +155,8 @@ h1,h2,h3,h4,h5{
     .decripcion{
       background-color: #0e64b06e;
       text-align: center;
+      margin-left: 3em;
+      margin-right: 4em;
     }
   
     .precio{
@@ -166,6 +168,7 @@ h1,h2,h3,h4,h5{
     .frase{
       text-align: center;
     }
+
     .botonlistado{
       margin-left: 4em;
       margin-right: 2em;
@@ -174,6 +177,8 @@ h1,h2,h3,h4,h5{
     .modificar{
       color: var(--blanco);
       background-color: var(--negro);
+      margin-left: 5em;
+      margin-right: 4em;
     }
     .estado{
       color: var(--blanco);
@@ -181,10 +186,177 @@ h1,h2,h3,h4,h5{
     }
   }
   
-  /*Resolución tablet*/
-  @media screen and (max-width: 799.8px){
-    
+/*Resolución tablet*/
+@media screen and (max-width: 799.8px){
+  #contenedor{
+    display: flex;
+    flex-direction: row;
   }
+  .menulateral1{
+    background: url(../listadohabitacion/curvadashboard.jpg);
+    height: 9em;
+    width: 6em;
+  }
+  .imagen1{
+    display: none;
+  }
+
+  .imagenn1{
+    padding: 1rem;
+    width: 4em;
+  }
+  .muñecaAnguie{
+    margin-left: 1.3em;
+    width: 3em;
+    border-radius: 0.3em;
+  }
+    
+  .AnguieeV{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .AnguieeV h3 {
+    display: none;
+  } 
+  .AnguieeV p {
+    display: none;
+  } 
+
+  .listadohabitacion{
+    background-color: var(--negro);
+    height: 47em;
+    width: 10em;
+  }
+  
+  .menulateral2{
+    display: flex;
+    flex-direction: column;
+  }
+  .menulateral2 p{
+    display: none;
+  }
+  .menulateral2 i{
+    color: white;
+    font-size: 2em;
+    margin-top: 1.5em;
+    margin-left: 0.5em;
+  }
+  
+  .salida p{
+    display: none;
+  }
+  .salida i{
+    color: white;
+    font-size: 2em;
+    margin-top: 8em;
+    margin-left: 0.5em;
+  }
+
+  .habitaciones{
+    background-color:var(--blanco);
+  }
+
+  .titulohabi{
+    font-family: 'Marcellus', serif;
+    font-size: 2em;
+    margin-left: 5em;
+    margin-top: 0.1em;
+  }
+  
+  .categoriaestado{
+    background-color: #e2e2e2;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .cate{
+    margin-left: 5em;
+  }
+  .categoriaestado p{
+    font-family:'Arial';
+    font-size: 1em;
+  }
+
+  select{
+    margin-right: 4em;
+  }
+  .camas{
+    width: 30em;
+    height: 20em;
+  }
+  .fila1{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .fila2{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .cama1{
+    background-color:#f4f2ee;
+    width: 14em;
+    margin-left: 2em;
+    margin-right: 3em;
+    margin-top: 2em;
+  }
+  
+  .cama2{
+    background-color:#f4f2ee;
+    width: 14em;
+    margin-left: 1em;
+    margin-right: 3em;
+    margin-top: 2em;
+  }
+  
+  .cama3{
+    display: none;
+  }
+  
+  .imagen2{
+    margin-top: 0.2em;
+    width: 9em;
+    height: 8em;
+    margin-left: 1em;
+  }
+  .decripcion{
+    background-color: #0e64b06e;
+    text-align: center;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
+
+  .precio{
+    margin-top: 0.2em;
+    font-family: 'Marcellus', serif;
+    text-align: center;
+  }
+    
+  .frase{
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .botonlistado{
+    margin-left: 2em;
+    margin-right: 1em;
+    margin-top: 0.2em;
+  }
+  .modificar{
+    color: var(--blanco);
+    background-color: var(--negro);
+    margin-left: 3em;
+    margin-right: 2em;
+  }
+  .estado{
+    color: var(--blanco);
+    background-color:#9C2759;
+    margin-left: 3em;
+    margin-right: 2em;
+  }
+}
   
   /*Resolución mobile*/
   @media screen and (max-width: 460px){

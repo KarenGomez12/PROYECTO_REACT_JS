@@ -1,5 +1,6 @@
 import './Listadohabitacion.css';
 import IMAGEN1 from './Hotelia horizontal blanco.svg';
+import campana from './hotelia campana.svg';
 import IMA from './muñecaAnguie.png';
 import CAMA1 from './cama1.jpg';
 import CAMA2 from './cama2.jpg';
@@ -16,6 +17,7 @@ function Listadohabitacion() {
 
                     <div class="menulateral1">
                         <img class="imagen1" src={IMAGEN1}/>
+                        <img class="imagenn1" src={campana}/>
                         <div class="AnguieeV">
                             <img class="muñecaAnguie"src={IMA}/>
                             <div class="nombre">
@@ -26,12 +28,12 @@ function Listadohabitacion() {
                     </div>
 
                     <div class="menulateral2">
-                        <a href="" class="items"><i class="fa-solid fa-bed"></i> Habitaciones</a>
-                        <a href="" class="items"><i class="fa-solid fa-bed"></i> Registrar habitaciones</a>
-                        <a href="" class="iitems"><i class="fa-solid fa-pen"></i> Editar Perfil</a>
+                        <a href="" class="items"><i class="fa-solid fa-bed"></i><p>Habitaciones</p> </a>
+                        <a href="" class="items"><i class="fa-solid fa-bed"></i> <p>Registrar habitaciones</p></a>
+                        <a href="" class="iitems"><i class="fa-solid fa-pen"></i> <p>Editar Perfil</p></a>
                     </div>
                     <div class="salida">
-                            <Link to="/"><a href="index.html"><i class="fa-solid fa-arrow-right-from-bracket"></i>Cerrar Sesión</a></Link>
+                            <Link to="/"><a href="index.html"><i class="fa-solid fa-arrow-right-from-bracket"></i><p>Cerrar Sesión</p></a></Link>
                     </div>
                 </aside>
                 
