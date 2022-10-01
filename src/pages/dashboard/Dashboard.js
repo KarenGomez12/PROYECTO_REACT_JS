@@ -4,6 +4,9 @@ import hc from './hotelia campana.svg';
 import mA from './muñecaAnguie.png';
 import anguie from './anguie.png';
 
+//Para que me tome el divprop de los props 
+import Div2prop from "./Div2prop";
+
 //Link para la navegabilidad de direccioneamineto 
 import { Link } from 'react-router-dom';
 
@@ -12,11 +15,12 @@ function Dashboard() {
         <body id="dash1">
             <nav id="dash">
                 <div id="dash2">
-                    <div class="AnguieV">
-                        <img class="img2" src={HHB2}/>
-                        <h3>Anguie Vargas</h3>
-                        <p>anguievargas2@gmail.com</p>
-                    </div>   
+                    <Div2prop
+                    imagen2="img2" src={HHB2}
+                    texto='Anguie Vargas'
+                    correo='anguievargas2@gmail.com'
+                    />
+                      
                 </div>
                 <div class="menu2">
                     <Link to="/Listadohabitacion"><a href="#" class="items"><i class="fa-solid fa-bed"></i>Habitaciones</a></Link>

@@ -56,24 +56,6 @@ h1,h2,h3,h4,h5{
     .img1{
       width: 15.5em;
     } 
-    .img2{
-      text-align: center;
-      background-size: cover;
-      background-position: 50% 50%;
-      width: 8rem;
-      height: 8rem;
-      margin-left: 3em;
-    }
-    .AnguieV h3{
-      margin-left: 3.5em;
-      color: white;
-    }
-  
-    .AnguieV p{
-      margin-left: 5.5em;
-      color: white;
-      font-size: 0.7em;
-    }
   
     .menu2{
       color: white;

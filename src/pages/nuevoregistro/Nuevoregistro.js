@@ -1,7 +1,6 @@
 import './Nuevoregistro.css';
 import HHB from './Hotelia horizontal blanco.svg';
 
-
 //Link para la navegabilidad de direccioneamineto 
 import { Link } from 'react-router-dom';
 
@@ -10,7 +9,7 @@ function NuevoRegistro() {
         <body id="body">
             <div id="cuerporegistrate">
                 <article id="primeraparte"> 
-                        <a href="index.html"><img src={HHB}/></a>
+                        <Link to="/"><a href="index.html"><img src={HHB}/></a></Link>
                         <p>Eres más que bienvenido</p>
                 </article>
 
