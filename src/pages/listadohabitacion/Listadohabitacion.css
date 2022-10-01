@@ -40,6 +40,9 @@ h1,h2,h3,h4,h5{
       padding: 2rem;
       width: 12em;
     }
+    .imagenn1{
+      display: none;
+    }
     .muñecaAnguie{
       margin-left: 1em;
       width: 3em;
@@ -80,8 +83,11 @@ h1,h2,h3,h4,h5{
       color: white;
     }
     .salida{
-      margin-top: 18em;
+      font-size: 2em;
+      margin-top: 6em;
       margin-left: 1em;
+    }
+    .salidap{
       color: white;
     }
     
@@ -184,6 +190,7 @@ h1,h2,h3,h4,h5{
       color: var(--blanco);
       background-color:#9C2759;
     }
+    
   }
   
 /*Resolución tablet*/

@@ -1,6 +1,9 @@
 import './Iniciarsesion.css';
 import HHN from './Hotelia horizontal negro.svg';
 
+//Para que me tome el divprop de los props 
+import Divprop from "./Divprop";
+
 //Para que me tome el linqueado que hago
 import { Link } from 'react-router-dom';
 
@@ -14,9 +17,8 @@ function Iniciarsesion() {
             <section id="Login">
             <img src={HHN}/>
                 <form id="Hotelia3">
-                    <div class="user">
-                        <i class="fa-solid fa-user"></i>
-                    </div>
+                    <Divprop
+                    icono='fa-solid fa-user'/>
 
                     <p>Usuario</p>
                     <input class="Controles" id="usuario" type="text" name="usuario" required="obligatorio"/>
